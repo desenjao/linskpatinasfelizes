@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Pontuação e Níveis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        h1 {
+            color: #54118f;
+        }
+
+        .section {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px;
+            width: 100%;
+            max-width: 800px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            color: #54118f;
+            font-size: 1.2em;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #54118f;
+            color: #fff;
+        }
+
+        .button-container {
+            text-align: right;
+            margin-top: 10px;
+        }
+
+        .export-button {
+            background-color: #54118f;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9em;
+        }
+
+        .export-button:hover {
+            background-color: #421075;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Sistema de Pontuação e Níveis</h1>
+
+    <!-- Atividades e Pontos -->
+    <div class="section">
+        <h2>Atividades e Pontos</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Atividade</th>
+                    <th>Pontos</th>
+                    <th>Observações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Tarefas -->
+                <tr><td colspan="3"><strong>Tarefas</strong></td></tr>
+                <tr><td>Tarefa simples</td><td>10-20</td><td></td></tr>
+                <tr><td>Tarefa média</td><td>30-50</td><td></td></tr>
+                <tr><td>Tarefa complexa</td><td>60-100</td><td></td></tr>
+
+                <!-- Qualidade -->
+                <tr><td colspan="3"><strong>Qualidade</strong></td></tr>
+                <tr><td>Código limpo e bem comentado</td><td>+10%</td><td></td></tr>
+                <tr><td>Resolução de bugs complexos</td><td>+20%</td><td></td></tr>
+
+                <!-- Criatividade -->
+                <tr><td colspan="3"><strong>Criatividade</strong></td></tr>
+                <tr><td>Ideia inovadora implementada</td><td>20 pontos</td><td></td></tr>
+
+                <!-- Colaboração -->
+                <tr><td colspan="3"><strong>Colaboração</strong></td></tr>
+                <tr><td>Revisão de código construtiva</td><td>5 pontos</td><td></td></tr>
+                <tr><td>Mentoria de outro membro</td><td>10 pontos</td><td></td></tr>
+
+                <!-- Eventos -->
+                <tr><td colspan="3"><strong>Eventos</strong></td></tr>
+                <tr><td>Participação em reuniões</td><td>2 pontos</td><td></td></tr>
+                <tr><td>Apresentação de ideias</td><td>5 pontos</td><td></td></tr>
+            </tbody>
+        </table>
+
+       
+    </div>
+
+    <!-- Níveis e Recompensas -->
+    <div class="section">
+        <h2>Níveis e Recompensas</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nível</th>
+                    <th>Pontos Necessários</th>
+                    <th>Recompensas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Aprendiz</td><td>0-200</td><td>🔒surprise🎊</td></tr>
+                <tr><td>Desenvolvedor Júnior</td><td>201-500</td><td>🔒surprise🎊</td></tr>
+                <tr><td>Desenvolvedor Pleno</td><td>501-1000</td><td>🔒surprise🎊</td></tr>
+                <tr><td>Líder Técnico</td><td>1000+</td><td>🔒surprise🎊</td></tr>
+            </tbody>
+        </table>
+
+      
+    </div>
+
+    
+    </script>
+
+</body>
+</html>
